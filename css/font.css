@@ -48,5 +48,34 @@
 .notoserif { font-family: 'Noto Serif', serif;}
 .anton { font-family: 'Anton', sans-serif;}
 
+/* 폰트추가 */
+
+@font-face {
+	font-family: 'Theinhardt';
+	font-style: normal;
+	font-weight: 300;
+	src: url(/font/theinhardt-light-webfont.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Theinhardt';
+	font-style: normal;
+	font-weight: 400;
+	src: url(/font/theinhardt-regular.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Theinhardt';
+	font-style: normal;
+	font-weight: 500;
+	src: url(/font/theinhardt-medium.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'Theinhardt';
+	font-style: normal;
+	font-weight: 700;
+	src: url(/font/theinhardt-bold.woff) format('woff');
+}
 
 

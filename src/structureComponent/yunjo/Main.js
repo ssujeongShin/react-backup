@@ -13,7 +13,7 @@ import YunjoSec08 from "./component/YunjoSec08";
 import YunjoSec09 from "./component/YunjoSec09";
 
 
-function Main({videoSource, videoPlay}) {
+function Main() {
   useEffect(() => {
     // aos 라이브러리 초기화
     // useEffect 함수는 두 개의 인자를 받는다. -> 효과함수, 의존성 배열 
@@ -23,14 +23,14 @@ function Main({videoSource, videoPlay}) {
   const isPc = window.innerWidth >= 768;
   return (
     <div>
-      <YunjoSec01/>
+      <YunjoSec01 videoMobile={isMobile} videoPc={isPc}/>
       <YunjoSec02/>
       <YunjoSec03/>
-      <YunjoSec04/>
+      <YunjoSec04 videoMobile={isMobile} videoPc={isPc}/>
       <YunjoSec05/>
       <YunjoSec06/>
       <YunjoSec07/>
-      <YunjoSec08/>
+      <YunjoSec08 videoMobile={isMobile} videoPc={isPc}/>
       <YunjoSec09 mobile={isMobile} pc={isPc}/>
     </div>
   )

@@ -24,7 +24,6 @@ function YunjoSec09({mobile,pc}) {
         backgroundPosition: 'center',
         backgroundSize: mobile?'100%':'contain'
     };
-    console.log(bgImg);
   return (
     <section className="yunjo_sec09" style={style} data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
         <div className="cream_text_wrap">

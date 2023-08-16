@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Group Anyway" />
     <meta name="description" content="Portfolio, Sulwhasoo clone coding" />
-    <title>Portfolio, Sulwhasoo</title>
+    <title>설화수 스파 - 소개 - 트리트먼트 프로그램 | 설화수 한국</title>
     <!-- Font Awesome 5.15.4 -->
     <link
       rel="stylesheet"
@@ -25,11 +25,15 @@
     <script src="./js/prefixfree.min.js"></script>
     <!-- 기본 코딩 CSS -->
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/notosans_kr_CDN.css" />
     <link rel="stylesheet" href="./css/display_none_scrollbar.css" />
 
     <!-- 페이지 CSS -->
     <link rel="stylesheet" href="./css/spa_pro.css" />
+    <link rel="stylesheet" href="./commonModule/header/header.css">
+    <link rel="stylesheet" href="./commonModule/aside/sideGnb.css">
+    <link rel="stylesheet" href="./commonModule/footer/footer.css">
 
     <!-- 내부 스타일 영역 -->
     <style></style>
@@ -37,21 +41,20 @@
     <!-- 내부 스크립트 영역 -->
     <script>
       window.onload = function () {
-        // alert("TEST");
       };
     </script>
   </head>
   <body>
     <div id="wrap">
       <!-- Header -->
-      <header>
+      <header id="header">
         <!-- header load -->
       </header>
       <!-- /Header -->
       <!-- GNB -->
-      <article>
+      <div class="side_cover">
         <!-- GNB 영역 추가 -->
-      </article>
+      </div>
       <!-- /GNB -->
       
       <!-- Main -->
@@ -137,12 +140,13 @@
       <!-- /Main -->
       
       <!-- Footer -->
-      <footer>
+      <footer id="footer">
         <!-- footer load -->
       </footer>
       <!-- /Footer -->
     </div>
 
     <!-- 페이지 JS -->
+    <script src="./js/common.js"></script>
   </body>
 </html>

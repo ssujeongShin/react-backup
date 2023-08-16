@@ -4,7 +4,7 @@ body {
     min-height: 100%;
     min-width: 360px;
     font-size: 62.5%;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Theinhardt','Noto Sans KR', 'Nanum Gothic', '나눔고딕', sans-serif;
     letter-spacing: -.07em;
     word-spacing: 0.05em;
     /* overflow-x: hidden; */
@@ -19,10 +19,6 @@ main br.pc {
     display: none;
 }
 /* 모바일 퍼스트 */
-/* header */
-header{
-    height: 60px;
-}
 /* main */
 /* 모바일단 세이프에리어 */
 .spaPro_info {
@@ -88,10 +84,6 @@ article .spaPro_text p {
     font-weight: 500;
     font-size: 1.4em;
     color: #767676;
-}
-/* footer */
-footer {
-    height: 100px;
 }
 
 
